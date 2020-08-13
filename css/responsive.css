@@ -1,0 +1,116 @@
+/* === Navbar === */ 
+@media(max-width: 1024px) {
+    .nav {
+        padding: 20px 60px;
+    }
+
+    .nav .reservations-button {
+        display: none;
+    }
+
+    .nav-links {
+        display: none;
+    }
+}
+
+@media(max-width: 768px) {
+    .nav {
+        padding: 20px 40px;
+    }
+}
+
+@media(max-width: 600px) {
+    .nav {
+        padding: 20px;
+    }
+}
+
+/* === Menu Mobile === */ 
+@media(max-width: 1024px) {
+
+    #check:checked ~ .menu-mobile {
+        right: 0;
+    }
+
+    #check:checked ~ .menu-bars:before {
+        content: "\f00d  "; 
+        font-family: FontAwesome;
+    }   
+
+    .menu-bars:before {
+        content: "\f0c9"; 
+        font-family: FontAwesome;  
+        position: fixed;
+        z-index: 1003;
+        top: 20px;
+        right: 60px;
+        cursor: pointer;
+        color: #ffffff;
+        font-size: 36px;
+        line-height: 42px;
+        font-weight: 300;
+    }
+
+    @media(max-width: 768px) {
+        .menu-bars:before {
+            right: 40px;
+        }
+    }
+    
+    @media(max-width: 600px) {
+        .menu-bars:before {
+            right: 20px;
+        }
+    }
+    
+
+    .menu-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        right: -100%;
+        z-index: 1002;
+        text-align: center;
+        width: 50%;
+        height: 100vh;
+        background-color: #1a1919;
+        background-image: url(../images/7cb18679659f791b1191bea97b74dfc0-removebg-preview.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-position-y: -120px;
+        transition: linear 0.4s;
+    }
+
+    .menu-link{
+        margin: 0 0 20px 0;
+    }
+
+    .menu-link a{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+
+    .menu-mobile .reservations-button {
+        padding: 15px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 50px;
+        text-align: center;
+        white-space: nowrap;
+    }
+}
+
+@media(max-width: 600px) {
+    .menu-mobile {
+        width: 100%;     
+    }
+
+    .menu-mobile .reservations-button {
+        padding: 10px;
+    }
+}
+
