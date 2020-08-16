@@ -196,3 +196,22 @@
     }
 }
 
+
+/* === Hero-Img === */
+@media(max-width: 769px) {
+    .hero-img-txt h2 {
+        font-size: 48px;
+    }
+}
+
+@media(max-width: 600px) {
+    .hero-img-txt h2 {
+        font-size: 36px;
+    }
+
+    .hero-img-txt p {
+        font-size: 12px;
+    }
+}
+
+

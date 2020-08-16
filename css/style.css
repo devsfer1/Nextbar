@@ -188,3 +188,71 @@ body {
     padding: 0 20px;
 }
 
+
+/* === Hero-Img === */
+.hero-img {
+    height: auto;
+    position: relative; 
+    display: flex;
+    justify-content: center; 
+}
+
+.img-hamburguer {
+    width: 100%;
+    height: 500px;  
+    object-fit: cover;  
+}
+
+.hero-img-txt {   
+    position: absolute;
+    top: 50%;
+    left:  50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    animation-name: heroImgTxt;
+    animation-duration: 3s;
+}
+
+.hero-img-txt h2 {
+    font-weight: 300;
+    font-size: 64px;
+    color: #FFFFFF; 
+    text-align: center;  
+    margin-bottom: 20px; 
+}
+
+.hero-img-txt p {
+    font-size: 14px;
+    color: #FFFFFF;    
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+@keyframes heroImgTxt{
+    0% {
+      position: absolute;
+      opacity: 0;
+      top: 90%;
+    }
+  
+    100% {
+      position: absolute;
+      opacity: 1;  
+      top: 50%;
+    }
+}
+
+.hero-btn {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    padding: 20px 50px;
+    background-color: #DA7D25;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
