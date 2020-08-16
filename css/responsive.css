@@ -207,7 +207,6 @@
 @media(max-width: 600px) {
     .hero-img-txt h2 {
         font-size: 36px;
-        max-width: 60ch;
     }
 
     .hero-img-txt p {
