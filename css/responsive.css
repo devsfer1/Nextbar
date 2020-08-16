@@ -211,6 +211,8 @@
 
     .hero-img-txt p {
         font-size: 12px;
+        max-width: 50ch;
+        text-align: center;
     }
 }
 
