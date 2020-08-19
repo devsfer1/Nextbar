@@ -154,22 +154,6 @@ body {
     padding: 60px 20px 120px 0px;
     border: 2px solid #7d715b;
     box-shadow: 5px 30px 40px 5px rgba(0, 0, 0, 0.25);
-    animation-name: aboutBox;
-    animation-duration: 3s;
-}
-
-@keyframes aboutBox {
-    0% {
-      position: absolute;
-      opacity: 0;
-      left: 0;
-    }
-  
-    100% {
-      position: absolute;
-      opacity: 1;  
-      left: 50%;
-    }
 }
 
 .about-title {
@@ -187,7 +171,6 @@ body {
     color: #4A4A4A;
     padding: 0 20px;
 }
-
 
 /* === Hero-Img === */
 .hero-img {
@@ -209,8 +192,6 @@ body {
     left:  50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    animation-name: heroImgTxt;
-    animation-duration: 3s;
 }
 
 .hero-img-txt h2 {
@@ -231,19 +212,6 @@ body {
     margin-right: auto;
 }
 
-@keyframes heroImgTxt{
-    0% {
-      position: absolute;
-      opacity: 0;
-      top: 90%;
-    }
-  
-    100% {
-      position: absolute;
-      opacity: 1;  
-      top: 50%;
-    }
-}
 
 .hero-btn {
     position: absolute;

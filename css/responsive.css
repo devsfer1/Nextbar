@@ -62,8 +62,11 @@
             right: 20px;
         }
     }
-    
 
+    .menu-links {
+        margin-top: 20px;
+    }
+    
     .menu-mobile {
         display: flex;
         flex-direction: column;
@@ -74,11 +77,7 @@
         text-align: center;
         width: 50%;
         height: 100vh;
-        background-color: rgb(41, 38, 32);
-        background-image: url(../images/7cb18679659f791b1191bea97b74dfc0-removebg-preview.png);
-        background-position: right;
-        background-repeat: no-repeat;
-        background-position-y: -120px;
+        background-color: #0f0f0f;
         transition: linear 0.4s;
     }
 
@@ -150,16 +149,12 @@
         width: 90%;
         position: relative;
         left: 0;
-        animation-name: aboutMobile;
-        animation-duration: 2s;
     }
 
     .about-image {
         display: flex;
         justify-content: center; 
         width: 90%; 
-        animation-name: aboutMobile;
-        animation-duration: 2s;  
     }
 
     .about-image img {
@@ -167,19 +162,6 @@
         height: 500px;  
     }
 
-    @keyframes aboutMobile {
-        0% {
-          position: relative;
-          opacity: 0;
-          left: -50%;
-        }
-      
-        100% {
-          position: relative;
-          opacity: 1;  
-          left: 0;
-        }
-    }
 }
 
 @media(max-width: 800px) {
@@ -201,7 +183,6 @@
         padding: 60px 20px;       
     }
 }
-
 
 /* === Hero-Img === */
 @media(max-width: 769px) {
