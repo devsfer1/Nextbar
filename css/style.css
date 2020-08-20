@@ -427,7 +427,8 @@ footer {
     left: 250px;
     top: 220px;
     background: #FFFFFF;
-    border: 1px solid #000000;
+    border: 1px solid #4A4A4A;
+    color: #070708;
     padding: 20px 60px;
     font-weight: 400;
     font-style: italic;
@@ -440,6 +441,7 @@ footer {
     font-weight: 300;
     line-height: 24px;
     margin-bottom: 40px;
+    color: #4A4A4A;
 }
 
 .blog-post-right {
