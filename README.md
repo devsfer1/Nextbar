@@ -1,6 +1,6 @@
 # Next bar Website
 
-#### Next bar é um site com tema "restaurante" ao qual eu intensifiquei e melhorei meus treinos em Design, CSS e Html; Nesse projeto pude melhorar minhas habilidades com design de sites, tipografia, esquema de cores, flexbox e grid, responsividade e por último mas não menos importante otimização do tempo de carregamento de Websites.
+ Next bar é um site com tema "restaurante" ao qual eu intensifiquei e melhorei meus treinos em Design, CSS e Html; Nesse projeto pude melhorar minhas habilidades com design de sites, tipografia, esquema de cores, flexbox e grid, responsividade e por último mas não menos importante otimização do tempo de carregamento de Websites.
 
 ##### Acesse o Site aqui: <https://devsfe.github.io/nextbar-website/>
 
