@@ -20,5 +20,5 @@
  ![Img-Site-3](https://user-images.githubusercontent.com/58652794/90960232-9d075a00-e476-11ea-8dd0-5a613b933414.PNG)
 
 
-
+##### Para realizar o Design deste Website tive como inspiração um Template de Boostrap, no qual você pode acessar neste Link: <https://technext.github.io/thevenue/index.html>
 
