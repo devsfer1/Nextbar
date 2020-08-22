@@ -2,7 +2,7 @@
 
  Next bar é um site com tema "restaurante" ao qual eu intensifiquei e melhorei meus treinos em Design, CSS e Html; Nesse projeto pude melhorar minhas habilidades com design de sites, tipografia, esquema de cores, flexbox e grid, responsividade e por último mas não menos importante otimização do tempo de carregamento de Websites.
 
-##### Acesse o Site aqui: <https://devsfe.github.io/nextbar-website/>
+#### Acesse o Site aqui: <https://devsfe.github.io/nextbar-website/>
 
 
  ![NextBar-Gif-2](https://user-images.githubusercontent.com/58652794/90841875-367a2300-e334-11ea-902e-2d5bfef4d793.gif)
@@ -20,5 +20,5 @@
  ![Img-Site-3](https://user-images.githubusercontent.com/58652794/90960232-9d075a00-e476-11ea-8dd0-5a613b933414.PNG)
 
 
-##### Para realizar o Design deste Website tive como inspiração um Template de Boostrap, no qual você pode acessar neste Link: <https://technext.github.io/thevenue/index.html>
+#### Para realizar o Design deste Website tive como inspiração um Template de Boostrap, no qual você pode acessar neste Link: <https://technext.github.io/thevenue/index.html>
 
